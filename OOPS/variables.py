@@ -82,28 +82,30 @@
 
 # STATIC/CLASS VARIABLE
 
-class Student:
+
+
+# class Student:
     
-    # School = "SJCS"
+#     # School = "SJCS"
     
-    def __init__(self,name,roll_no):
-        self.name = name
-        self.roll_no = roll_no
+#     def __init__(self,name,roll_no):
+#         self.name = name
+#         self.roll_no = roll_no
         
-        # Student.center_code = 101
+#         # Student.center_code = 101
         
-    def display(self):
+#     def display(self):
         
-        Student.grade = "10th"
+#         Student.grade = "10th"
         
-        print("name = ",self.name)
-        print("roll_no = ",self.roll_no)
-        # print("School = ",Student.School)
-        # print("center = ",Student.center_code)
-        print("grade = ",Student.grade)
+#         print("name = ",self.name)
+#         print("roll_no = ",self.roll_no)
+#         # print("School = ",Student.School)
+#         # print("center = ",Student.center_code)
+#         print("grade = ",Student.grade)
         
-obj=Student("Deva",62)
-obj.display()
+# obj=Student("Deva",62)
+# obj.display()
 # print("School",Student.School)        
 
 
@@ -111,4 +113,27 @@ obj.display()
 # -------------------------------------------------------------------------------------------------------
 
 
-        
+
+# LOCAL VARIABLE  --> we cannot access local variable outside of the define block
+
+# class Student:
+#     def display(self,name,age):
+#         x=10
+#         print("Name = ",name)
+#         print("Age = ",age)
+#         print("X = ",x)
+# obj = Student()
+# obj.display("Deva",23)
+# print(obj.x)   
+
+
+
+# class Student:
+#     def display(self,name,age):
+#         x=10
+#         print("Name = ",name)
+#         print("Age = ",age)
+#         print("X = ",x)
+# obj = Student()
+# obj.display("Deva",23)
+  
